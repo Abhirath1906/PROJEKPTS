@@ -1,0 +1,81 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+
+.Gambar{
+  display: flex;
+  justify-content: center;
+  width: 1600px;
+  height: 900px;
+}
+
+.New {
+   color: orange;
+}
+
+
+/* .stylePP{
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+} */
+/* Mengatur ukuran dan posisi gambar utama (GambarRandom) */
+/* .Gambar {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+} */
+
+/* Mengatur posisi gambar LOGOPP di atas gambar GambarRandom */
+.stylePP {
+  position: absolute;
+  top: 38%;   /* Menempatkan gambar LOGOPP di tengah secara vertikal */
+  left: 50%;  /* Menempatkan gambar LOGOPP di tengah secara horizontal */
+  transform: translate(-50%, -50%);  /* Menyesuaikan agar gambar tepat berada di tengah */
+  width: 150px;   /* Ukuran gambar LOGOPP, sesuaikan sesuai kebutuhan */
+  height: auto;
+}
+
+.logoatas{
+  width: 55px;
+  height: auto;
+}
+
+.tryforfree{
+  display: flex;
+  margin-top: 35px;
+  margin-left: 1000px;
+  font-size: 20px;
+  background-color: rgb(29, 130, 246);
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.alldivcontainer{
+display: flex;
+background-color: white;
+margin-bottom: 30px;
+border: 1px solid black;
+}
+
+.all-new-paste{
+ 
+    font-size: 48px; 
+    font-weight: bold; 
+    background: linear-gradient(to right, #FF7F00, #FF4500); 
+    -webkit-background-clip: text;
+    color: transparent; 
+    display: inline; 
+  }
+  
+  .textawal{
+    font-size: 35px;
+    margin-top: 40px;
+    
+  }
