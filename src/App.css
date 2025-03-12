@@ -30,38 +30,42 @@ html {
   object-fit: cover;
 } */
 
-/* Mengatur posisi gambar LOGOPP di atas gambar GambarRandom */
+
 .stylePP {
   position: absolute;
-  top: 38%;   /* Menempatkan gambar LOGOPP di tengah secara vertikal */
-  left: 50%;  /* Menempatkan gambar LOGOPP di tengah secara horizontal */
-  transform: translate(-50%, -50%);  /* Menyesuaikan agar gambar tepat berada di tengah */
-  width: 150px;   /* Ukuran gambar LOGOPP, sesuaikan sesuai kebutuhan */
+  top: 38%;  
+  left: 50%;  
+  transform: translate(-50%, -50%);  
+  width: 150px;  
   height: auto;
 }
 
 .logoatas{
   width: 55px;
   height: auto;
+  cursor: pointer;
 }
 
 .tryforfree{
   display: flex;
-  margin-top: 35px;
-  margin-left: 1000px;
+  margin-top: 25px;
+  margin-left: 980px;
   font-size: 20px;
   background-color: rgb(29, 130, 246);
   padding: 10px;
   border-radius: 20px;
   color: white;
-  font-weight: bold;
+  cursor: pointer;
 }
 
 .alldivcontainer{
 display: flex;
 background-color: white;
-margin-bottom: 30px;
+margin-bottom: 10px;
 border: 1px solid black;
+padding:5px;
+opacity: 0;
+
 }
 
 .all-new-paste{
@@ -74,8 +78,223 @@ border: 1px solid black;
     display: inline; 
   }
   
+
+.all-body{
+  padding: 0;
+  margin: 0;
+}
+
+
   .textawal{
     font-size: 35px;
     margin-top: 40px;
     
   }
+
+  .yourSpace{
+    color: #FF7F00;
+  }
+
+
+  .divtext{
+    background-color: rgb(239, 237, 237);
+  }
+
+  .laptopOren{
+    background-color: white;
+    padding: 100px;
+    border: 1px solid white;
+    border-radius: 30px;
+   }
+
+  .theText{
+   position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: rgb(0, 0, 0); 
+  font-size: 24px; 
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  */
+  }
+
+  .Angkasa{
+    margin-left: 100px;
+    margin-top: 140px;
+    width: 650px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+  }
+
+  .TextNasa{
+  position: absolute;
+  top: 28%;
+  left: 12.5%;
+  transform: translate(-50%, -50%); 
+  font-size: 20px;
+  opacity: 0;
+  }
+
+  .BUMI{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  transform: translate(-50%, -50%); 
+  font-size: 20px;
+  opacity: 0;
+  }
+
+  .TEXT{
+    position: absolute;
+    top: 88%;
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    font-size: 25px;
+    color: white;
+    opacity: 0;
+  }
+
+  .CHAT{
+    margin-right: 30px;
+    margin-top: 400px;
+    /* width: 650px; */
+    font-size: 20px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+    opacity: 0;
+  }
+
+  .containerIMG2{
+    margin-top: 150px;
+    position: relative;
+    background-color: rgb(36, 137, 253);
+    margin-left:30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 650px;
+  }
+
+  .TEXT2{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%); 
+    font-size: 25px;
+    color: white;
+  }
+
+ 
+
+.lastText{
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.containerLastText{
+  position: absolute;
+  top: 100%;
+  left: 33%;
+  transform: translate(-50%, -50%); 
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.allContainer2{
+  background-color:rgb(40, 40, 40);
+  margin-top: 120px;
+}
+
+
+.Textcon1{
+  color:white;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  position: absolute;
+  left: 50%;
+  /* margin-top: -1500px; */
+  margin-top: -1200px;
+  transform: translate(-50%, -50%);
+  font-weight: bold; 
+}
+
+.Textcon2{
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  position: absolute;
+  margin-top: -1140px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  font-weight: bold;
+  color: #fc7025b6;
+}
+
+.Textcon3{
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  position: absolute;
+  left: 50%;
+  margin-top: -1080px;
+  transform: translate(-50%, -50%); 
+  font-weight: bold;
+  color: #fc7025b6;
+  /* font-size: 24px; */
+  
+}
+
+
+.PEMANDANGAN{
+  margin-top: 200px;
+  width: 1500px;
+  height: auto;
+  
+}
+
+
+.twotext{
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  /* margin-top: -1500px; */
+  margin-top: -1010px;
+  transform: translate(-50%, -50%); 
+}
+
+.containerPemandangan{
+  position: "relative"
+}
+
+.Pemandangan2{
+  position: absolute;
+  /* top: -28%; */
+  left: 73%;
+  margin-top: -800px;
+  transform: translate(-50%, -50%); 
+  /* font-size: 20px; */
+  width: 100px;
+  scale: 8;
+  height: auto;
+  border-radius: 20px;
+}
+
+.containerTEXTdown{
+  position: relative;
+  margin-left: 30%;
+  scale: 1.3;
+  margin-top: 20%;
+}
+
+.divTop{
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-size: 20px;
+  margin-right: 100px;
+}
